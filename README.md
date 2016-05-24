@@ -1,4 +1,32 @@
 # node-mithril-storage
-Node implementation of mithril-storage based on [mithril-storage](https://github.com/kawan16/mithril-storage) by kawan16.
+Node implementation of [mithril-storage](https://github.com/kawan16/mithril-storage).
 
-_Only supports LocalStorage and InMemory storage._
+## How to install
+You can install this package using npm.
+
+`npm install node-mithril-storage`
+
+## How to use it
+
+```javascript
+var mx = require('node-mithril-storage');
+var storage = mx.storage();
+// same as
+// var storage = mx.storage(mx.DEFAULT_STORAGE_NAME, mx.DEFAULT_STORAGE);
+
+// Add the object to storage
+storage.set('test', {message: 'TEST'});
+
+// Get the object from storage.
+var test = storage.get('test');
+
+// Remove the key from storage
+storage.remove('test');
+```
+
+### Available storage types
+
+```javascript
+mx.LOCAL_STORAGE // [DEFAULT_STORAGE]
+mx.IN_MEMORY_STORAGE
+```
