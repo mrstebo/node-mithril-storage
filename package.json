@@ -1,0 +1,30 @@
+{
+  "name": "node-mithril-storage",
+  "version": "0.0.1",
+  "description": "Node implementation of mithril-storage. Based on https://github.com/kawan16/mithril-storage",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrstebo/node-mithril-storage.git"
+  },
+  "keywords": [
+    "node",
+    "mithril",
+    "storage",
+    "localstorage"
+  ],
+  "author": {
+    "name": "Steven Atkinson",
+    "email": "steven.atkinson@gmx.com",
+    "url": "https://github.com/mrstebo/"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^2.10.2",
+    "eslint-config-es5": "^0.5.0"
+  }
+}
