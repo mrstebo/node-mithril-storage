@@ -1,6 +1,6 @@
 {
   "name": "node-mithril-storage",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Node implementation of mithril-storage. Based on https://github.com/kawan16/mithril-storage",
   "main": "./lib/index.js",
   "scripts": {
