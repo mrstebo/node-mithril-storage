@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- 5.1.0
+deploy:
+  provider: npm
+  email: mrstebouk@gmail.com
+  api_key:
+    secure: MozmVP06iCG3qnNPqbd7Nmb4ThVnVnYNEgTfY6dDADBG/60Hw3fEt1U7SwATzCB2Qx1HnK15LMsgtrH5uvtbFibUAqSwJt7rEwuYi5MpLVdNzLx3OJAdX1Q2BNfhPB6EmDyV/7yeh0IEYC6b3UB01F8q8VqEUB83nZEF+M4BcEPINP8giA6B3br9a+h1WzCSHCPltpu0xcVKY3vjnxPPTuxMY7kiVY1D76sjti3H15sYU+og9n7PBUfeniglr5HRkCr0l8IiYC6Hb55mx2PWlEw40kScLmA2ot9W8dgqvCdjTrr34IfDUx2uhe9fgUwDDO2pBTO6Gf3UN9RrTD3DHWwddOU57qtSRuLL51yz9oaR1/AJ/cX9rmV8s8j3lEhkaqkkN0OoQOG4XsJLBxCQZj/eYVc6UASFpVaRKPX2Qu5VAjLW21KAVVQw4toNUWJ6TyiCGCupRkdM5gZdFKZZHOaOudC2UIBxwpQhXVfreQuKHg7CDBM7QwWaElwqrx/8U939+QZfR4TXKcqvx7f5vHGTnMIQnAhClDnk/rBNn5HOPIe/wlNP3xMCGi+QLBBGvmZDxeArIkQUksypJIuVSATsvcwk06NDXeDXB9SwpdnihcS2vChnILCta+UWbCtaaFHwzQXDZ2J5Ddb4/VpVOQziiafjBm6HFmZfuBSBB7g=
+  on:
+    tags: true
+    repo: mrstebo/node-mithril-storage
