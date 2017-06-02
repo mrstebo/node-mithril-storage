@@ -1,6 +1,8 @@
 [![Build Status](https://travis-ci.org/mrstebo/node-mithril-storage.svg?branch=master)](https://travis-ci.org/mrstebo/node-mithril-storage) [![npm version](https://badge.fury.io/js/node-mithril-storage.svg)](https://badge.fury.io/js/node-mithril-storage)
 
 # node-mithril-storage
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/mrstebo/node-mithril-storage.svg)](https://greenkeeper.io/)
 Node implementation of [mithril-storage](https://github.com/kawan16/mithril-storage).
 
 ## How to install
