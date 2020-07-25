@@ -1,4 +1,6 @@
-[![Build Status](https://travis-ci.org/mrstebo/node-mithril-storage.svg?branch=master)](https://travis-ci.org/mrstebo/node-mithril-storage) [![npm version](https://badge.fury.io/js/node-mithril-storage.svg)](https://badge.fury.io/js/node-mithril-storage)
+[![Build Status](https://travis-ci.org/mrstebo/node-mithril-storage.svg?branch=master)](https://travis-ci.org/mrstebo/node-mithril-storage)
+[![npm version](https://badge.fury.io/js/node-mithril-storage.svg)](https://badge.fury.io/js/node-mithril-storage)
+[![Known Vulnerabilities](https://snyk.io/test/github/mrstebo/node-mithril-storage/badge.svg)](https://snyk.io/test/github/mrstebo/node-mithril-storage)
 
 # node-mithril-storage
 Node implementation of [mithril-storage](https://github.com/kawan16/mithril-storage).
